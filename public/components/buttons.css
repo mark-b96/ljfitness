@@ -1,0 +1,19 @@
+button {
+    text-align: center;
+    border-radius: 5.3px;
+    background-color: #000000;
+    outline: none;
+    border:none;
+    color: #f00ee4;
+    font-size: 20px;
+    margin-right: 75px;
+    margin-top: 95px;
+    transition: 250ms; 
+    z-index: 1000;
+    pointer-events:all;
+}
+
+button:hover {
+      color: white;
+      cursor: pointer;
+}

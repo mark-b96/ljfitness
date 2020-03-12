@@ -1,0 +1,11 @@
+.menu {
+    background: url("/images/menu.svg");
+    width: 32px;
+    height: 32px;
+    right: 0;
+    position: absolute;
+}
+
+.menu:hover{
+    cursor: pointer;
+}

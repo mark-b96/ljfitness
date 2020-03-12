@@ -1,0 +1,9 @@
+  .logo {
+    background: url("/images/logo.svg");
+    width: 123px;
+    height: 176px;
+    margin: 20px;
+    margin-right: 300px;
+    display: inline-block;
+    z-index: -1;
+}
