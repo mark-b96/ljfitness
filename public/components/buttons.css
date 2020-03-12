@@ -6,8 +6,10 @@ button {
     border:none;
     color: #f00ee4;
     font-size: 20px;
-    margin-right: 75px;
-    margin-top: 95px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    justify-content: space-around;
+    margin-left: 130px;
     transition: 250ms; 
     z-index: 1000;
     pointer-events:all;

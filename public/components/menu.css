@@ -1,9 +1,9 @@
 .menu {
-    background: url("/images/menu.svg");
-    width: 32px;
-    height: 32px;
     right: 0;
+    top: 0;
     position: absolute;
+    padding: 20px;
+    /* visibility: hidden; */
 }
 
 .menu:hover{
