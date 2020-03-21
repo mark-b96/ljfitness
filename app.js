@@ -8,4 +8,7 @@ app.get('/', function (req, res) {
 
 app.use(express.static('./public'));
 
+
+var msg = require('./public/animation.js');
+
 app.listen(3000);

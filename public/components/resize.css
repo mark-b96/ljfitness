@@ -1,24 +1,35 @@
-@media screen and (max-width: 1200px){
-    .button{
+@media screen and (max-width: 1400px){
+    .menu{
         position: absolute;
-        right: 0px;
+        right: 0px; 
+        top: 30vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
-        /* visibility: hidden; */
+        width: 100%;
         transform: translateX(100%);
-        top: 88vh;
-        height: 92vh;
-        /* overflow: hidden;
-        visibility: collapse;
-        margin: 0;
-        padding: 0; */
+        /* transition: transform 1s ease-in; */
     }
-    .menu{
-        visibility: visible;
+    .logo{
+        max-width: 20%;
+        max-height: 20%;
     }
-    body{
+    header{
+        justify-content: flex-end;
+    }
+    html{
         overflow-x: hidden;
     }
+
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+    }
+}
+
+.logo-active{
+    max-width: 1%;
+    max-height: 1%;
 }
