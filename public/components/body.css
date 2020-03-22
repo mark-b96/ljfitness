@@ -4,3 +4,6 @@ body {
     background: #000000;
     z-index: -1;
   }
+  body::selection{
+    background: transparent;
+  }

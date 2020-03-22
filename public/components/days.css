@@ -5,22 +5,37 @@
     font-size: 25px;
     text-decoration: none;
     list-style-type: none;
-    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
     text-align: center;
-
+    animation: drop 2s ease;
+    transition: 250ms; 
 }
 
 li{
-    /* display: flex;   */
     flex-direction: column;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    /* margin-bottom: 50px; */
-    /* border-radius: 10px; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+    transition: 250ms; 
 }
 
 li:hover{
     color: white;
     cursor: pointer;
     background-color: #f00ee4;
+    transition: 250ms; 
 }
+li::selection{
+    background: transparent;
+}
+
+@keyframes drop{
+    0%{
+        transform: translateY(-80px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }

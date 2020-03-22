@@ -1,15 +1,14 @@
 button{
     text-align: center;
-    border-radius: 5.3px;
     background-color: #000000;
     outline: none;
     border:none;
     color: #f00ee4;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 2px;
     justify-content: space-around;
-    margin-left: 130px;
+    margin-left: 110px;
     transition: 250ms; 
     z-index: 1000;
     pointer-events:all;
@@ -18,4 +17,7 @@ button{
 button:hover {
       color: white;
       cursor: pointer;
+}
+button::selection{
+    background: transparent;
 }

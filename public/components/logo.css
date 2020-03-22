@@ -2,4 +2,9 @@
     margin: 20px;
     display: inline-block;
     z-index: top;
+    pointer-events: none;
+    transition: 250ms; 
+}
+.logo::selection{
+  background: transparent;
 }

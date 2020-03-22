@@ -4,3 +4,6 @@ header{
     display: flex;
     align-items: center;
 }
+header::selection{
+    background: transparent;
+}
