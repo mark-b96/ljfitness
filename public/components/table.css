@@ -1,0 +1,31 @@
+table, th, td{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 15px;
+    max-width: 90%;   
+    
+}
+table{
+    align-items: center;
+    pointer-events: none;
+    cursor: default;
+}
+
+th{
+    color: #f00ee4;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-collapse: separate;
+    border-bottom:  4px solid #f00ee4;
+}
+
+table,tr,th,td::selection{
+    background: transparent;
+}
+th::selection{
+    background: transparent;
+}

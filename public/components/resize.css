@@ -44,8 +44,24 @@
 }
 
 .days-active{
+    transform: translateX(-300%);
+}
+.content-active{
     transform: translateX(-100%);
 }
 .logo-colour{
    filter:brightness(0) invert(1);
+}
+.w1-active{
+    transform: translateY(-80%);
+}
+.days-hide{
+    color: black;
+    pointer-events: none;
+    transition: 250ms;
+}
+.day-show{
+    color: white;
+    pointer-events: all;
+    transition: 250ms;
 }

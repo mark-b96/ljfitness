@@ -5,8 +5,6 @@
     font-size: 25px;
     text-decoration: none;
     list-style-type: none;
-    min-width: 100%;
-    min-height: 100%;
     text-align: center;
     animation: drop 2s ease;
     transition: 250ms; 
