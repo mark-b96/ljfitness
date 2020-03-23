@@ -9,3 +9,7 @@ html,body {
   body::selection{
     background: transparent;
   }
+
+  .content{
+    display: block;
+  }

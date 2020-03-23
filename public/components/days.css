@@ -6,8 +6,8 @@
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    animation: drop 2s ease;
-    transition: 250ms; 
+    animation: drop 1s ease;
+    transition: 250ms;
 }
 
 li{

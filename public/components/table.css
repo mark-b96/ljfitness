@@ -13,6 +13,7 @@ table{
     align-items: center;
     pointer-events: none;
     cursor: default;
+    transform: translateX(-300%);
 }
 
 th{
