@@ -13,3 +13,6 @@ html,body {
   .content{
     display: block;
   }
+  p{
+    color: white;
+  }

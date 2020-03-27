@@ -2,25 +2,22 @@ const express = require('express');
 const mongoose = require('mongoose');
 const hbs = require('express-handlebars');
 const path = require('path');
-const bodyParser = require('body-parser');
 
+// mongoose.connect('mongodb://localhost/Workouts', {
+//     useNewUrlParser: true
+// });
 
+// let db = mongoose.connection;
 
-mongoose.connect('mongodb://localhost/Workouts', {
-    useNewUrlParser: true
-});
+// let Workouts = require('./Model/workouts');
 
-let db = mongoose.connection;
+// db.once('open', function () {
+//     console.log("Connected to mongoDB");
+// })
 
-let Workouts = require('./Model/workouts');
-
-db.once('open', function () {
-    console.log("Connected to mongoDB");
-})
-
-db.on('error', function (err) {
-    console.log(err);
-});
+// db.on('error', function (err) {
+//     console.log(err);
+// });
 
 const app = express();
 
@@ -28,18 +25,26 @@ app.engine('hbs', hbs({ extname: 'hbs', defaultLayout: 'index', layoutsDir: __di
 app.set('views', path.join(__dirname, 'public/View'));
 app.set('view engine', 'hbs');
 
-app.use(bodyParser.urlencoded({ extended: false }));
-
-app.use(bodyParser.json());
-
 app.get('/', function (req, res) {
-    var w;
-    Workouts.find({ Day: 1 }, function (err, workouts) {
-        workout: w;
-    });
-
-    res.render('index', { sets: 4, time: 60, exercise: w });
+    res.render('index', { sets: 4, time: 60, exercise: "Squats" });
 });
+
+app.get('/Workouts', function (req, res) {
+    res.render('workouts');
+});
+
+app.get('/Biometrics', function (req, res) {
+    res.render('biometrics');
+});
+
+app.get('/Contact', function (req, res) {
+    res.render('contact');
+});
+
+app.get('/Tips', function (req, res) {
+    res.render('tips');
+});
+
 
 app.use(express.static('./public'));
 
