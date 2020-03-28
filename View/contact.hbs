@@ -2,13 +2,23 @@
 <html lang="en">
 
 {{> head}}
-
+<style>
+    body,
+    html {
+        overflow-y: visible;
+    }
+</style>
 
 <body>
     {{{body}}}
     {{> header}}
-    <p>We are an authorised financial services provider.</p>
-    {{!-- <script type="text/javascript" src="../Controller/animation.js"></script> --}}
+    <div class="details">
+        <img src="/images/ljr.png">
+        <a class="contact" target="_blank" href="https://www.instagram.com/lj_fitness_international/"><img
+                src="/images/insta.svg"></a>
+        {{!-- <a class="contact" href=""><img src="/images/email.svg"></a> --}}
+    </div>
+    <script type="text/javascript" src="/Controller/menu.js"></script>
 </body>
 
 </html>

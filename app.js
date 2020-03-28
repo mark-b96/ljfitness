@@ -29,6 +29,14 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
+app.get('/Controller/menu.js', function (req, res) {
+    res.sendFile(__dirname + '/Controller/menu.js');
+});
+
+app.get('/Controller/days.js', function (req, res) {
+    res.sendFile(__dirname + '/Controller/days.js');
+});
+
 app.get('/Workouts', function (req, res) {
     res.render('workouts');
 });
