@@ -53,5 +53,5 @@ body,html{
    filter:brightness(0) invert(1);
 }
 .w1-active{
-    transform: translateX(0%);
+    transform: translateX(0%); 
 }

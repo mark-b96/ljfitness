@@ -3,21 +3,21 @@ const mongoose = require('mongoose');
 const hbs = require('express-handlebars');
 const path = require('path');
 
-// mongoose.connect('mongodb://localhost/Workouts', {
-//     useNewUrlParser: true
-// });
+mongoose.connect('mongodb://localhost/Workouts', {
+    useNewUrlParser: true
+});
 
-// let db = mongoose.connection;
+let db = mongoose.connection;
 
-// let Workouts = require('./Model/workouts');
+let Workouts = require('./Model/workouts');
 
-// db.once('open', function () {
-//     console.log("Connected to mongoDB");
-// })
+db.once('open', function () {
+    console.log("Connected to mongoDB");
+})
 
-// db.on('error', function (err) {
-//     console.log(err);
-// });
+db.on('error', function (err) {
+    console.log(err);
+});
 
 const app = express();
 

@@ -2,7 +2,6 @@ const workout = function () {
 
     const w1 = document.querySelector('.w1');
     const days = document.querySelector(".days");
-    const d1 = document.querySelector('.d1');
     const dArr = document.querySelectorAll("li");
 
 
@@ -15,10 +14,9 @@ const workout = function () {
         const t = document.querySelector(clicked);
 
         dArr.forEach(li => {
-            console.log(li.className);
             if (li.className != t.className && checked)
                 li.remove();
-            if (li.className != t.className && !checked)
+            if (!checked)
                 days.append(li);
         })
     })
