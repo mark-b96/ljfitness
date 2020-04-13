@@ -1,0 +1,60 @@
+db.workouts.update({Day: "1"},
+    {
+        $set: {
+              Day: 1,
+              w1: ["1a. Heel Elevated Squats", 4, "60 s"],
+              w2: ["1b. Sumo Squats", 4, "60 s"],
+              w3: ["2a. Push ups", 3, "15"],
+              w4: ["2b. Y raises", 3, "15"],
+              w5: ["2c. Lateral Raises", 3, "15"]
+            }
+    }
+)
+
+db.workouts.update({Day: 2},
+    {
+        $set: {
+              w1: ["1a. Pulsing Glute Bridges", 3, "20"],
+              w2: ["1b. Glute Bridge hold", 3, "20"],
+              w3: ["1c. Normal glute bridge", 3, "20"],
+              w4: ["2a. Backpack Bent over row", 4, "12"],
+              w5: ["2b. Poliquin Raises", 4, "12"]
+            }
+    }
+)
+
+db.workouts.update({Day: 3},
+    {
+        $set: {
+              w1: ["1a. Push Ups", 3, "10"],
+              w2: ["1b. Mountain Climbers", 3, "20"],
+              w3: ["2a. Front Raises", 3, "10"],
+              w4: ["2b. Sit up", 3, "10"]
+            }
+    }
+)
+
+db.workouts.update({Day: 4},
+    {
+        $set: {
+              w1: ["1a. Backpack Back Squat", 4, "15"],
+              w2: ["1b. Shoulder Press", 4, "10"],
+              w3: ["2a. Single Leg Deadlift", 4, "15 each leg"],
+              w4: ["2b. Reverse Lunges", 4, "12 each leg"],
+              w5: ["3. Jump Squats", 3, "10"]
+            }
+    }
+)
+
+db.workouts.update({Day: 5},
+    {
+        $set: {
+              w1: ["1a. Russian Twist", 3, "45 s"],
+              w2: ["1b. Sit ups", 3, "45 s"],
+              w3: ["1c. Reverse Sit ups", 3, "45 s"],
+              w4: ["1d. Plank with Hip dips", 3, "45 s"],
+            }
+    }
+)
+
+

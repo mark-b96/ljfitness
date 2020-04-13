@@ -1,10 +1,24 @@
-let mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
-let workoutSchema = mongoose.Schema({
-    day: {
-        type: Number,
-        required: true
+var workoutSchema = mongoose.Schema({
+    Day: {
+        type: Number
+    },
+    w1: {
+        type: Array
+    },
+    w2: {
+        type: Array
+    },
+    w3: {
+        type: Array
+    },
+    w4: {
+        type: Array
+    },
+    w5: {
+        type: Array
     }
 });
 
-let workout = module.exports = mongoose.model('Workouts', workoutSchema);
+var Workout = module.exports = mongoose.model('Workout', workoutSchema);

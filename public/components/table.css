@@ -1,19 +1,18 @@
 table, th, td{
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     letter-spacing: 1px;
     border-collapse: collapse;
     margin: auto;
     padding: 15px;
     max-width: 90%;   
-    
 }
 table{
     align-items: center;
-    pointer-events: none;
+    /* pointer-events: none; */
     cursor: default;
-    transform: translateX(-300%);
+    /* transform: translateX(-300%); */
 }
 
 th{
@@ -22,6 +21,10 @@ th{
     letter-spacing: 1px;
     border-collapse: separate;
     border-bottom:  4px solid #f00ee4;
+}
+
+td:hover{
+    cursor: pointer;
 }
 
 table,tr,th,td::selection{

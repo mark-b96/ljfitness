@@ -6,7 +6,7 @@
 <body>
     {{> header}}
 
-    <div class="days">
+    {{!-- <div class="days">
         <li class="d1">Day 1</li>
         <li class="d2">Day 2</li>
         <li class="d3">Day 3</li>
@@ -14,47 +14,52 @@
         <li class="d5">Day 5</li>
         <li class="d6">Day 6</li>
         <li class="d7">Day 7</li>
-    </div>
+    </div> --}}
 
     <div class="content">
+        {{#each workouts}}
+        <h1>Day {{Day}}</h1>
         <table class="w1">
+
+
             <thead>
                 <tr>
-                    <th>EXERCISE</th>
+                    <th>EXERCISES</th>
                     <th>SETS</th>
-                    <th>TIME</th>
+                    <th>REPS</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>{{exercise}}</td>
-                    <td>{{sets}}</td>
-                    <td>{{time}} seconds</td>
+                    {{#each w1}}
+                    <td onclick="location.href='/Exercises'">{{this}}</td>
+                    {{/each}}
                 </tr>
                 <tr>
-                    <td>Single leg Romanian Deadlift</td>
-                    <td>4</td>
-                    <td>60 seconds</td>
+                    {{#each w2}}
+                    <td onclick="location.href='/Exercises'">{{this}}</td>
+                    {{/each}}
                 </tr>
                 <tr>
-                    <td>Wall Sits</td>
-                    <td>4</td>
-                    <td>60 seconds</td>
+                    {{#each w3}}
+                    <td onclick="location.href='/Exercises'">{{this}}</td>
+                    {{/each}}
+                </tr>
+                <tr>
+                    {{#each w4}}
+                    <td onclick="location.href='/Exercises'">{{this}}</td>
+                    {{/each}}
+                </tr>
+                <tr>
+                    {{#each w5}}
+                    <td onclick="location.href='/Exercises'">{{this}}</td>
+                    {{/each}}
                 </tr>
 
-                <tr>
-                    <td>Push up with shoulder taps</td>
-                    <td>4</td>
-                    <td>60 seconds</td>
-                </tr>
-
-                <tr>
-                    <td>Russian Twists</td>
-                    <td>4</td>
-                    <td>60 seconds</td>
-                </tr>
             </tbody>
+
         </table>
+        {{/each}}
     </div>
     <script type="text/javascript" src="/Controller/menu.js"></script>
     <script type="text/javascript" src="/Controller/days.js"></script>

@@ -4,11 +4,18 @@ html,body {
     background: #000000;
     z-index: -1;
     height: 100%;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    position: relative;
+    width: 100%;
   }
   body::selection{
     background: transparent;
   }
 
+html::selection{
+    background: transparent;
+  }
   .content{
     display: block;
   }
@@ -16,7 +23,33 @@ html,body {
     color: white;
     font-size: 20px;
     position: relative;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
   }
+
+strong{
+  color: #f00ee4;
+}
+  p::selection{
+    background: transparent;
+  }
+
+ u::selection{
+    background: transparent;
+  }
+  strong::selection{
+    background: transparent;
+  }
+
+.tip{
+  background: transparent;
+}
+
+.alltips{
+  overflow-x: hidden;
+}
+
 
   h3{
     color: white;
@@ -24,11 +57,19 @@ html,body {
   }
 
   .contact{
-    margin: 30px;
-  }
-  .details{
-    align-content: center;
-    align-items: center;
+    display: flex;
     text-align: center;
-    /* grid-column: auto; */
+    width: 100%;
+    margin: auto;
+  }
+
+  .laura{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+  }
+  .menu{
+    width: 100%;
   }

@@ -4,6 +4,7 @@
   "description": "Fitness Web Application",
   "main": "app.js",
   "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
     "body-parser": "^1.19.0",
     "build-tools": "^8.0.0",
     "express": "^4.17.1",
@@ -11,7 +12,9 @@
     "mongoose": "^5.9.6",
     "node-sass": "^4.13.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "handlebars": "^4.5.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

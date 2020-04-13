@@ -7,10 +7,17 @@ h1{
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
-    align-content: left;
-    color: #ffffff;
-    position: relative;
-    margin-left: 27px;
-    margin-right: 27px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    display: block;
+    letter-spacing: 1px;
+}
+
+h1::selection{
+    background: transparent;
+}
+
+h1:hover{
+    cursor: default;
 }

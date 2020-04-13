@@ -13,6 +13,9 @@ const workout = function () {
 
         const t = document.querySelector(clicked);
 
+        let day_selected = parseInt(t.className[1]);
+        // module.exports = day_selected;
+
         dArr.forEach(li => {
             if (li.className != t.className && checked)
                 li.remove();
@@ -23,5 +26,4 @@ const workout = function () {
 }
 
 var checked = false;
-
 workout();

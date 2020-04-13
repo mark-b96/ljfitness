@@ -8,11 +8,16 @@ a{
     font-weight: bold;
     letter-spacing: 2px;
     justify-content: space-around;
-    margin-left: 110px;
     transition: 250ms; 
     z-index: 1000;
     pointer-events:all;
     text-decoration: none;
+    width: 22%;
+    display: inline-flex;
+}
+
+.table:hover{
+    color: #f00ee4;
 }
 
 a:hover {
