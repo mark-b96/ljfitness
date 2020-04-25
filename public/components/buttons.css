@@ -12,7 +12,7 @@ a{
     z-index: 1000;
     pointer-events:all;
     text-decoration: none;
-    width: 22%;
+    width: 30%;
     display: inline-flex;
     box-shadow: none;
 }
@@ -29,6 +29,7 @@ a::selection{
     outline: none;
     background: transparent;
 }
+<<<<<<< HEAD
 .button:focus{
     outline: none !important;
 }
@@ -50,3 +51,9 @@ a:focus {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-tap-highlight-color: transparent; /* For some Androids */
 }
+=======
+*{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+>>>>>>> ca789e4b245da789b603097fc0e6005456785d5f

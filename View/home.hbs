@@ -18,7 +18,7 @@
 
     <div class="content">
         {{#each workouts}}
-        <h1>Day {{Day}}</h1>
+        <h1 onclick="location.href='/{{Day}}'">Day {{Day}}</h1>
         <table class="w1">
 
 
@@ -62,5 +62,4 @@
         {{/each}}
     </div>
     <script type="text/javascript" src="/Controller/menu.js"></script>
-    <script type="text/javascript" src="/Controller/days.js"></script>
 </body>

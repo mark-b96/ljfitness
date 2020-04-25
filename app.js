@@ -45,13 +45,29 @@ app.get('/Controller/menu.js', function (req, res) {
     res.sendFile(__dirname + '/Controller/menu.js');
 });
 
-app.get('/Controller/days.js', function (req, res) {
-    res.sendFile(__dirname + '/Controller/days.js');
-
-});
-
 app.get('/Exercises', function (req, res) {
     res.render('workouts');
+});
+
+app.get('/1', function (req, res) {
+    res.render('Day 1');
+});
+
+
+app.get('/2', function (req, res) {
+    res.render('Day 2');
+});
+
+app.get('/3', function (req, res) {
+    res.render('Day 3');
+});
+
+app.get('/4', function (req, res) {
+    res.render('Day 4');
+});
+
+app.get('/5', function (req, res) {
+    res.render('Day 5');
 });
 
 app.get('/Contact', function (req, res) {
