@@ -1,27 +1,15 @@
 db.Workouts.insertMany([
 {
-Day: 2,
-Excercises: ['Straight leg kickbacks', 'Side to side kickbacks', 'Donkey kicks', 'Glute Bridges'],
-Sets: [4,4,4,4],
-Time: [60,60,60,60,60]
+Day: 6,
+w1: ["Rest"],
 },
 {
-Day: 3,
-Exercises: ['Toe Taps', 'Sit ups with arms elevated', 'Lateral Raises', 'Bicycle Crunches', 'High Knees'],
-Sets: [4,4,4,4,4],
-Time: [60,60,60,60,60]
-},
-{
-Day: 4,
-Exercises: ['Glute Bridge with pulses', 'Single Leg glute Bridges', 'Knees to Half Squat', 'Mountain Climbers', 'Plank with shoulder taps'],
-Sets: [4,4,4,4,4],
-Time: [60,60,60,60,60]
-},
-{
-Day: 5,
-Exercises: ['Jump Squats', 'Sumo Squats', 'Curtsey Lunges', 'Ankle Taps'],
-Sets: [4,4,4,4],
-Time: [60,60,60,60]
+Day: 7,
+w1: ["1a. Bird Dog", 3, "10 each side"],
+w2: ["1b. Mountain Climber", 3, "20"],
+w3: ["2a. Reverse Sit Up", 3, "10"],
+w4: ["2b. Russian Twist", 3, "10 each side"],
+w5: ["3. Plank with Hip Dip", 3, "10 each side"] 
 }
 ])
 

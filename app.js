@@ -38,7 +38,7 @@ app.get('/', function (req, res) {
                 workouts: workouts
             });
         }
-    }).lean();
+    }).lean().sort({ Day: 1 });
 });
 
 app.get('/Controller/menu.js', function (req, res) {
