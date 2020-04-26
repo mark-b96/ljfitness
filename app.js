@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const hbs = require('express-handlebars');
 const path = require('path');
+const handlebarsHelpers = require('handlebars-helpers')();
 
 mongoose.connect('mongodb://localhost/test_db', {
     useUnifiedTopology: true,
@@ -22,7 +23,7 @@ const app = express();
 
 let Workout = require('./Model/workouts');
 
-app.engine('hbs', hbs({ extname: 'hbs', defaultLayout: 'index', layoutsDir: __dirname + '/View' }));
+app.engine('hbs', hbs({ extname: 'hbs', defaultLayout: 'index', layoutsDir: __dirname + '/View', helpers: handlebarsHelpers }));
 app.set('views', path.join(__dirname, '/View'));
 app.set('view engine', 'hbs');
 
@@ -50,24 +51,87 @@ app.get('/Exercises', function (req, res) {
 });
 
 app.get('/1', function (req, res) {
-    res.render('Day 1');
+    Workout.find({ Day: 1 }, function (err, workouts) {
+        if (err) {
+            console.log(err)
+        } else {
+            res.render('Day 1', {
+                workout: workouts
+            });
+        }
+    }).lean();
 });
 
-
 app.get('/2', function (req, res) {
-    res.render('Day 2');
+    Workout.find({ Day: 2 }, function (err, workouts) {
+        if (err) {
+            console.log(err)
+        } else {
+            res.render('Day 2', {
+                workout: workouts
+            });
+        }
+    }).lean();
 });
 
 app.get('/3', function (req, res) {
-    res.render('Day 3');
+    Workout.find({ Day: 3 }, function (err, workouts) {
+        if (err) {
+            console.log(err)
+        } else {
+            res.render('Day 3', {
+                workout: workouts
+            });
+        }
+    }).lean();
 });
 
 app.get('/4', function (req, res) {
-    res.render('Day 4');
+    Workout.find({ Day: 4 }, function (err, workouts) {
+        if (err) {
+            console.log(err)
+        } else {
+            res.render('Day 4', {
+                workout: workouts
+            });
+        }
+    }).lean();
 });
 
 app.get('/5', function (req, res) {
-    res.render('Day 5');
+    Workout.find({ Day: 5 }, function (err, workouts) {
+        if (err) {
+            console.log(err)
+        } else {
+            res.render('Day 5', {
+                workout: workouts
+            });
+        }
+    }).lean();
+});
+
+app.get('/6', function (req, res) {
+    Workout.find({ Day: 5 }, function (err, workouts) {
+        if (err) {
+            console.log(err)
+        } else {
+            res.render('Day 6', {
+                workout: workouts
+            });
+        }
+    }).lean();
+});
+
+app.get('/7', function (req, res) {
+    Workout.find({ Day: 5 }, function (err, workouts) {
+        if (err) {
+            console.log(err)
+        } else {
+            res.render('Day 7', {
+                workout: workouts
+            });
+        }
+    }).lean();
 });
 
 app.get('/Contact', function (req, res) {

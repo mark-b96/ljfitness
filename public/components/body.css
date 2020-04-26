@@ -73,3 +73,11 @@ strong{
   .menu{
     width: 100%;
   }
+
+  .separator{
+    width: 80%;
+    margin: auto;
+    height: 0.5vh;
+    background-color: #f00ee4;
+    z-index: 10000;
+  }

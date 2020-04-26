@@ -9,6 +9,7 @@
     "build-tools": "^8.0.0",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.0",
+    "handlebars-helpers": "^0.10.0",
     "mongoose": "^5.9.6",
     "node-sass": "^4.13.1"
   },

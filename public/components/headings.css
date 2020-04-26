@@ -19,5 +19,5 @@ h1::selection{
 }
 
 h1:hover{
-    cursor: default;
+    cursor: pointer;
 }

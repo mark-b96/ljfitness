@@ -6,16 +6,6 @@
 <body>
     {{> header}}
 
-    {{!-- <div class="days">
-        <li class="d1">Day 1</li>
-        <li class="d2">Day 2</li>
-        <li class="d3">Day 3</li>
-        <li class="d4">Day 4</li>
-        <li class="d5">Day 5</li>
-        <li class="d6">Day 6</li>
-        <li class="d7">Day 7</li>
-    </div> --}}
-
     <div class="content">
         {{#each workouts}}
         <h1 onclick="location.href='/{{Day}}'">Day {{Day}}</h1>
