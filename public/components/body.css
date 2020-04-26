@@ -25,6 +25,7 @@ html::selection{
     position: relative;
     width: 70%;
     margin: auto;
+    line-height: 1.5;
   }
 
 strong{

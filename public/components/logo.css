@@ -8,3 +8,10 @@
 .logo::selection{
   background: transparent;
 }
+
+.logo-active{
+  transform: translateX(0%);
+}
+.logo-colour{
+ filter:brightness(0) invert(1);
+}
