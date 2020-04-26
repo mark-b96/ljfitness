@@ -2,19 +2,21 @@
     color: white;
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    animation: drop 1s ease;
+    /* animation: drop 1s ease; */
     transition: 250ms;
+    width: 100%;
+    white-space: nowrap;
 }
 
 li{
-    flex-direction: column;
     padding-bottom: 15px;
     padding-top: 15px;
     transition: 250ms; 
+    white-space: nowrap;
 }
 
 li:hover{

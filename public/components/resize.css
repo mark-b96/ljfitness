@@ -37,10 +37,6 @@
     transform: translateX(0%);
 }
 
-.days-active{
-    transform: translateX(-300%);
-    /* transition: 250ms; */
-}
 .content-active{
     transform: translateX(-100%);
 }

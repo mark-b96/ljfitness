@@ -25,7 +25,6 @@ html::selection{
     position: relative;
     width: 70%;
     margin: auto;
-    text-align: justify;
   }
 
 strong{
@@ -50,34 +49,14 @@ strong{
   overflow-x: hidden;
 }
 
+.menu{
+  width: 100%;
+}
 
-  h3{
-    color: white;
-    text-align: center;
-  }
-
-  .contact{
-    display: flex;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
-
-  .laura{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    margin: auto;
-  }
-  .menu{
-    width: 100%;
-  }
-
-  .separator{
-    width: 80%;
-    margin: auto;
-    height: 0.5vh;
-    background-color: #f00ee4;
-    z-index: 10000;
-  }
+.separator{
+  width: 80%;
+  margin: auto;
+  height: 0.5vh;
+  background-color: #f00ee4;
+  z-index: 10000;
+}
