@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="anatomy_core_abs.svg">
+   sodipodi:docname="anatomy_sit_up.svg">
   <metadata
      id="metadata452">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,7 +43,7 @@
      id="namedview448"
      showgrid="false"
      inkscape:zoom="1.9742421"
-     inkscape:cx="117.29204"
+     inkscape:cx="32.702617"
      inkscape:cy="161.27162"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
@@ -102,12 +102,12 @@
   <path
      d="m 64.898281,131.29999 c -0.6,-7.4 -1,-14 -1.9,-20.5 -0.3,-1.7 -2.2,-3.5 -3.8,-4.8 -1.9,-1.5 -3,-0.8 -3.1,1.7 -0.2,4.1 0,8.1 -0.8,12 -1.2,6.2 2.9,9.9 7.8,12.2 0.4,0.1 1.5,-0.6 1.8,-0.6 z"
      id="path24"
-     style="fill:#ff00ff"
+     style="fill:#b3b3b3"
      inkscape:connector-curvature="0" />
   <path
      d="m 101.69828,119.89999 c 0,-4.1 0.1,-8.2 0,-12.3 0,-2.1 -1,-2.8 -2.899999,-1.9 -2.3,1.1 -4.2,2.9 -4.5,5.7 -0.7,6.2 -1.1,12.5 -1.7,18.7 -0.2,2.1 0.8,2.6 2.5,1.7 5.599999,-3.3 8.199999,-6.1 6.599999,-11.9 z"
      id="path26"
-     style="fill:#ff00ff"
+     style="fill:#b3b3b3"
      inkscape:connector-curvature="0" />
   <path
      d="m 58.698281,198.89999 c -0.8,-5.4 -1.7,-10.7 -2.3,-16.1 -1.1,-9.8 -1.5,-19.6 -0.5,-29.5 0.6,-6.5 1.2,-13 1.7,-19.5 0.1,-1 -0.5,-2.1 -0.7,-3.2 -0.3,0.1 -0.6,0.1 -0.9,0.2 -5.7,23 -4.3,45.6 2.7,68.1 z"

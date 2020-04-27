@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="anatomy_posterior_hip_thrust.svg">
+   sodipodi:docname="anatomy_posterior_squat.svg">
   <metadata
      id="metadata722">
     <rdf:RDF>
@@ -42,9 +42,9 @@
      inkscape:window-height="986"
      id="namedview718"
      showgrid="false"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="54.825763"
-     inkscape:cy="149.40535"
+     inkscape:zoom="4"
+     inkscape:cx="58.636386"
+     inkscape:cy="187.17415"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -192,12 +192,12 @@
   <path
      d="m 102.76256,139.45355 c -1,-4.5 -1.8,-9 -2.999997,-13.5 -0.8,-3.1 -2.599999,-4.1 -5.499999,-4 -2.9,0.1 -5.2,1.9 -6.1,4.6 10.699999,6.2 10.699999,6.2 14.599996,12.9 z"
      id="path608"
-     style="fill:#ff00ff"
+     style="fill:#b3b3b3"
      inkscape:connector-curvature="0" />
   <path
      d="m 50.762564,139.05355 c 0.2,0.1 0.5,0.2 0.7,0.3 1.8,-7.4 7.6,-10.4 13.9,-12.7 -1.8,-3.4 -4.4,-5 -7.5,-4.6 -3.2,0.4 -4.2,2.7 -4.8,5.3 -0.9,3.8 -1.6,7.8 -2.3,11.7 z"
      id="path610"
-     style="fill:#ff00ff"
+     style="fill:#b3b3b3"
      inkscape:connector-curvature="0" />
   <path
      d="m 83.862564,212.85355 c 3.8,-7.1 4.2,-14.7 1.7,-31.5 -2.2,7.1 -3.4,27.4 -1.7,31.5 z"
@@ -232,12 +232,12 @@
   <path
      d="m 73.862564,150.05355 c 0.4,-0.1 0.7,-0.2 1.1,-0.2 0.1,-1.7 0,-3.5 0.4,-5.2 1,-5.1 -0.1,-9.1 -6.1,-11.3 1.5,5.8 3.1,11.3 4.6,16.7 z"
      id="path624"
-     style="fill:#ff00ff"
+     style="fill:#b3b3b3"
      inkscape:connector-curvature="0" />
   <path
      d="m 78.262564,149.85355 c 3.2,-5 4.8,-10.2 4.9,-16 -4.3,1.6 -6,4.4 -5.4,8.7 0.3,2.4 0.4,4.8 0.5,7.3 z"
      id="path626"
-     style="fill:#ff00ff"
+     style="fill:#b3b3b3"
      inkscape:connector-curvature="0" />
   <path
      d="m 90.462564,296.25355 c 0.3,0.1 0.7,0.2 1,0.3 0.2,-0.8 0.6,-1.6 0.7,-2.4 0.1,-1.4 -0.2,-2.9 0,-4.2 0.5,-3.9 1.5,-7.7 1.8,-11.6 0.3,-3.6 0.1,-7.3 0.1,-10.9 -0.4,0 -0.9,0 -1.3,0 -0.6,9.5 -1.4,19.2 -2.3,28.8 z"
@@ -252,12 +252,12 @@
   <path
      d="m 59.362564,119.65355 c -1.5,-4.7 -3,-9.2 -4.5,-13.7 -0.1,0.1 -0.2,0.1 -0.3,0.2 -0.2,5 -0.5,10 -0.7,15.1 1.7,-0.5 3.4,-1 5.5,-1.6 z"
      id="path632"
-     style="fill:#ff00ff"
+     style="fill:#b3b3b3"
      inkscape:connector-curvature="0" />
   <path
      d="m 99.662563,121.25355 c -0.4,-5 -0.7,-9.6 -0.999999,-14.2 -0.2,0 -0.4,0 -0.6,-0.1 -1.3,4.2 -2.6,8.5 -4,12.8 2.2,0.6 3.8,1 5.599999,1.5 z"
      id="path634"
-     style="fill:#ff00ff"
+     style="fill:#b3b3b3"
      inkscape:connector-curvature="0" />
   <g
      id="g636"

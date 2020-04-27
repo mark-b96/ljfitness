@@ -111,7 +111,7 @@ app.get('/5', function (req, res) {
 });
 
 app.get('/6', function (req, res) {
-    Workout.find({ Day: 5 }, function (err, workouts) {
+    Workout.find({ Day: 6 }, function (err, workouts) {
         if (err) {
             console.log(err)
         } else {
@@ -123,7 +123,7 @@ app.get('/6', function (req, res) {
 });
 
 app.get('/7', function (req, res) {
-    Workout.find({ Day: 5 }, function (err, workouts) {
+    Workout.find({ Day: 7 }, function (err, workouts) {
         if (err) {
             console.log(err)
         } else {
