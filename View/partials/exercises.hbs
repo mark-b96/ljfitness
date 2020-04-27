@@ -1,4 +1,10 @@
 <div class="workouts">
+    <style>
+        h1 {
+            pointer-events: none;
+        }
+    </style>
+
     {{#each workout}}
     {{#each this}}
     {{#if (isArray this)}}
@@ -18,9 +24,14 @@
         <img src="./images/d{{../Day}}/{{first this}}_posterior.svg" onerror="this.style.display='none'" />
         {{/if}}
     </div>
+
+    {{#if @last}}
+    <br><br>
+    {{else}}
     <br><br>
     <div class="separator"></div>
     <br><br>
+    {{/if}}
     {{/if}}
     {{/each}}
     {{/each}}
