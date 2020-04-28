@@ -18,6 +18,9 @@ var workoutSchema = mongoose.Schema({
     },
     w5: {
         type: Array
+    },
+    w6: {
+        type: Array
     }
 });
 

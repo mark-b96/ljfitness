@@ -40,6 +40,9 @@
         overflow: hidden;
         width: 100%;
       }
+    video{
+        padding-bottom: 30px;
+    }
 }
 
 .logo-active{

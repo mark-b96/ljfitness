@@ -10,8 +10,6 @@
         {{#each workouts}}
         <h1 onclick="location.href='/{{Day}}'">Day {{Day}}</h1>
         <table class="w1">
-
-
             <thead>
                 <tr>
                     <th>EXERCISES</th>
@@ -20,35 +18,18 @@
                 </tr>
             </thead>
             <tbody>
+                {{#each this}}
+                {{#if (isArray this)}}
                 <tr>
-                    {{#each w1}}
+                    {{#each this}}
                     <td>{{this}}</td>
                     {{/each}}
                 </tr>
-                <tr>
-                    {{#each w2}}
-                    <td>{{this}}</td>
-                    {{/each}}
-                </tr>
-                <tr>
-                    {{#each w3}}
-                    <td>{{this}}</td>
-                    {{/each}}
-                </tr>
-                <tr>
-                    {{#each w4}}
-                    <td>{{this}}</td>
-                    {{/each}}
-                </tr>
-                <tr>
-                    {{#each w5}}
-                    <td>{{this}}</td>
-                    {{/each}}
-                </tr>
-
+                {{/if}}
+                {{/each}}
             </tbody>
-
         </table>
+        <br><br>
         {{/each}}
     </div>
     <script type="text/javascript" src="/Controller/menu.js"></script>
