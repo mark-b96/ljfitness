@@ -21,6 +21,10 @@ th{
     border-bottom:  4px solid #f00ee4;
 }
 
+td{
+    cursor: pointer;
+}
+
 table,tr,th,td::selection{
     background: transparent;
 }

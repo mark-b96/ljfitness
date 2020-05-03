@@ -28,6 +28,10 @@ app.set('views', path.join(__dirname, '/View'));
 app.set('view engine', 'hbs');
 
 app.get('/', function (req, res) {
+    res.render('home');
+});
+
+app.get('/Programmes', function (req, res) {
     const query = req.query;
     console.log(query);
 
@@ -35,7 +39,7 @@ app.get('/', function (req, res) {
         if (err) {
             console.log(err)
         } else {
-            res.render('home', {
+            res.render('programmes', {
                 workouts: workouts
             });
         }
@@ -132,6 +136,10 @@ app.get('/7', function (req, res) {
             });
         }
     }).lean();
+});
+
+app.get('/Programmes', function (req, res) {
+    res.render('programmes');
 });
 
 app.get('/Contact', function (req, res) {

@@ -5,32 +5,9 @@
 
 <body>
     {{> header}}
-
-    <div class="content">
-        {{#each workouts}}
-        <h1 onclick="location.href='/{{Day}}'">Day {{Day}}</h1>
-        <table class="w1">
-            <thead>
-                <tr>
-                    <th>EXERCISES</th>
-                    <th>SETS</th>
-                    <th>REPS</th>
-                </tr>
-            </thead>
-            <tbody>
-                {{#each this}}
-                {{#if (isArray this)}}
-                <tr>
-                    {{#each this}}
-                    <td>{{this}}</td>
-                    {{/each}}
-                </tr>
-                {{/if}}
-                {{/each}}
-            </tbody>
-        </table>
-        <br><br>
-        {{/each}}
+    <div class="home">
+        <img class="sydney" src="./images/Sydney.jpg" />
     </div>
+
     <script type="text/javascript" src="/Controller/menu.js"></script>
 </body>

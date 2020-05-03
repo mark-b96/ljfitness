@@ -7,3 +7,22 @@ header{
 header::selection{
     background: transparent;
 }
+
+.arrowtop{
+    width: 7px;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    transform: translate(135%,-200%) rotate(-45deg);
+    z-index: 10000;
+    visibility: hidden;
+}
+.arrowbottom{
+    width: 10px;
+    height: 3px;
+    transition: 0.3s ease-in-out;
+    background-color: white;
+    transform: rotate(45deg);
+    z-index: 10000;
+    visibility: hidden;
+}

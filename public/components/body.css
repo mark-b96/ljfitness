@@ -5,7 +5,6 @@ html,body {
     z-index: -1;
     height: 100%;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
     position: relative;
     width: 100%;
   }
@@ -60,4 +59,14 @@ strong{
   height: 0.5vh;
   background-color: #f00ee4;
   z-index: 10000;
+}
+
+.home{
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+}
+
+.sydney{
+  width: 100%;
 }

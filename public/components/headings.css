@@ -1,5 +1,4 @@
 h1{
-    height: 28px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -12,6 +11,7 @@ h1{
     color: white;
     display: block;
     letter-spacing: 1px;
+    pointer-events: none;
 }
 
 h1::selection{
@@ -21,4 +21,30 @@ h1::selection{
 h1:hover{
     cursor: pointer;
     color: #f00ee4;
+}
+
+h2{
+    font-family: 'des_malers_frakturregular';
+    font-size: 36px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    align-content: left;
+    display: block;
+    letter-spacing: 10px;
+    margin: auto;
+    color: white;
+    width: 0;
+    visibility: hidden;
+}
+
+@font-face {
+    font-family: 'des_malers_frakturregular';
+    src: url('des_malers_fraktur.woff2') format('woff2'),
+         url('des_malers_fraktur.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
