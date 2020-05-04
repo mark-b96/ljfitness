@@ -24,7 +24,7 @@ h1:hover{
 }
 
 h2{
-    font-family: 'des_malers_frakturregular';
+    font-family: 'alcubierreregular';
     font-size: 36px;
     font-style: normal;
     font-stretch: normal;
@@ -41,10 +41,9 @@ h2{
 }
 
 @font-face {
-    font-family: 'des_malers_frakturregular';
-    src: url('des_malers_fraktur.woff2') format('woff2'),
-         url('des_malers_fraktur.woff') format('woff');
+    font-family: 'alcubierreregular';
+    src: url('alcubierre.woff2') format('woff2'),
+         url('alcubierre.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
