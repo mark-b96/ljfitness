@@ -4,6 +4,7 @@ header{
     align-items: center;
     position: fixed;
     background-color: black;
+    z-index: 100000;
 }
 header::selection{
     background: transparent;
