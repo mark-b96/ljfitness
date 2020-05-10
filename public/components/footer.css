@@ -12,14 +12,12 @@ a.contact{
     width: min-content;
     margin: 0;
 }
-  
-.sydney{
-width: 100%;
-display: block;
-}
 
 .insta_icon{
     margin: 4px;
+}
+.insta_icon::selection{
+    background: transparent;
 }
 p.copyright{
     color: black;
