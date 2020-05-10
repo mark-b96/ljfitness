@@ -1,12 +1,13 @@
 table, th, td{
     color: white;
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
     border-collapse: collapse;
     margin: auto;
     padding: 15px;
     max-width: 90%;   
+    font-family: 'titillium_webregular';
 }
 table{
     align-items: center;
@@ -15,10 +16,12 @@ table{
 
 th{
     color: #f00ee4;
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 24px;
+    letter-spacing: 4px;
     border-collapse: separate;
     border-bottom:  4px solid #f00ee4;
+    font-family: 'alcubierreregular';
+    font-weight: bold;
 }
 
 td{

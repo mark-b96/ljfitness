@@ -5,10 +5,11 @@ a{
     border:none;
     color: #f00ee4;
     font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    /* font-weight: bold; */
+    letter-spacing: 5px;
     justify-content: space-around;
     transition: 250ms; 
+    font-family: 'boldbold';
     z-index: 1000;
     pointer-events:all;
     text-decoration: none;
@@ -28,6 +29,31 @@ a:hover {
 a::selection{
     outline: none;
     background: transparent;
+}
+
+@font-face {
+    font-family: 'bellabooregular';
+    src: url('./fonts/bellaboo-regular.woff2') format('woff2'),
+         url('./fonts/bellaboo-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'leafyregular';
+    src: url('./fonts/leafy_400.woff2') format('woff2'),
+         url('./fonts/leafy_400.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'boldbold';
+    src: url('./fonts/cunia.woff2') format('woff2'),
+         url('./fonts/cunia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 <<<<<<< HEAD
 .button:focus{
@@ -57,3 +83,5 @@ a:focus {
     -webkit-tap-highlight-color: transparent; /* For some Androids */
 }
 >>>>>>> ca789e4b245da789b603097fc0e6005456785d5f
+
+

@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'alcubierreregular';
+    src: url('./fonts/alcubierre.woff2') format('woff2'),
+         url('./fonts/alcubierre.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titillium_webregular';
+    src: url('./fonts/titilliumweb-regular.woff2') format('woff2'),
+         url('./fonts/titilliumweb-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
+@font-face {
+    font-family: 'alcubierreregular';
+    src: url('./fonts/alcubierre.woff2') format('woff2'),
+         url('../fonts/alcubierre.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bosk_testregular';
+    src: url('./fonts/bosk.woff2') format('woff2'),
+         url('./fonts/bosk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'westfaliaregular';
+    src: url('../fonts/westfalia-regular.woff2') format('woff2'),
+         url('../fonts/westfalia-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chlakhregular';
+    src: url('./fonts/chlakh_regular.woff2') format('woff2'),
+         url('./fonts/chlakh_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'simplificasimplifica';
+    src: url('./fonts/simplifica_typeface.woff2') format('woff2'),
+         url('./fonts/simplifica_typeface.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

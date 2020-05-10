@@ -22,10 +22,32 @@ html::selection{
     color: white;
     font-size: 20px;
     position: relative;
-    width: 70%;
+    width: 85%;
     margin: auto;
     line-height: 1.5;
+    font-family: 'titillium_webregular';
   }
+
+p.goal{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px;
+}
+
+a.goal{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 4px;
+  color: white;
+  font-family: 'titillium_webregular';
+}
+
+a.goal.active{
+  color: #f00ee4;
+}
 
 strong{
   color: #f00ee4;

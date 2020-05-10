@@ -5,20 +5,22 @@ footer{
     background-color: white;
     text-align: center;
     align-content: center;
+    display: block;
 }
 a.contact{
     background-color: white;
+    width: min-content;
+    margin: 0;
 }
-
-.home{
-    width: 100%;
-  }
   
 .sydney{
 width: 100%;
+display: block;
 }
 
 .insta_icon{
-    max-height: 60%;
-    max-width: 60%;
+    margin: 4px;
+}
+p.copyright{
+    color: black;
 }

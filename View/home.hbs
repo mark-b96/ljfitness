@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 {{> head}}
 
 <body>
     {{> header}}
-    {{!-- <div class="home"> --}}
     <img class="sydney" src="./images/Sydney.jpg" />
-    {{!-- </div> --}}
+    <br>
+    <div class="container">
+        <div class="slides">
+            <div id="options-1">
+                <h1 class="goal-title">Goals</h1>
+                <a class="goal" href="#options-2">Lean muscle</a>
+                <a class="goal" href="#options-2">Fat Loss</a>
+                <a class="goal" href="#options-2">Muscle strength</a>
+            </div>
+            <div id="options-2">
+                <h1 class="goal-title">Location</h1>
+                <a class="goal" href="#options-3">Gym</a>
+                <a class="goal" href="#options-3">Home</a>
+            </div>
+            <div id="options-3">
+                <h1 class="goal-title">Equipment</h1>
+                <a class="goal">Long Bands</a>
+                <a class="goal">Mini/booty bands</a>
+                <a class="goal">Dumbells</a>
+                <a class="goal">Swiss Ball</a>
+            </div>
+        </div>
+    </div>
+    <br>
     {{> footer}}
     <script type="text/javascript" src="/Controller/menu.js"></script>
 </body>

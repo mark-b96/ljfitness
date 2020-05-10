@@ -1,5 +1,5 @@
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'simplificasimplifica';
     font-size: 36px;
     font-weight: bold;
     font-style: normal;
@@ -8,9 +8,9 @@ h1{
     letter-spacing: normal;
     text-align: center;
     align-content: center;
+    letter-spacing: 5px;
     color: white;
     display: block;
-    letter-spacing: 1px;
     pointer-events: none;
 }
 
@@ -18,9 +18,10 @@ h1::selection{
     background: transparent;
 }
 
-h1:hover{
-    cursor: pointer;
+h1.goal-title{
     color: #f00ee4;
+    font-size: 40px;
+    margin-bottom: 0;
 }
 
 h2{
@@ -38,12 +39,4 @@ h2{
     color: white;
     width: 0;
     visibility: hidden;
-}
-
-@font-face {
-    font-family: 'alcubierreregular';
-    src: url('alcubierre.woff2') format('woff2'),
-         url('alcubierre.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
