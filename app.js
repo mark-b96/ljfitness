@@ -35,7 +35,7 @@ app.get('/Controller/menu.js', function (req, res) {
     res.sendFile(__dirname + '/Controller/menu.js');
 });
 
-app.get('/Exercises', function (req, res) {
+app.get('/Exercises/', function (req, res) {
     Workout.find(function (err, workouts) {
         if (err) {
             console.log(err)
@@ -47,7 +47,7 @@ app.get('/Exercises', function (req, res) {
     }).lean().sort({ Day: 1 });
 });
 
-app.get('/1', function (req, res) {
+app.get('/Exercises/1', function (req, res) {
     Workout.find({ Day: 1 }, function (err, workouts) {
         if (err) {
             console.log(err)
@@ -59,7 +59,7 @@ app.get('/1', function (req, res) {
     }).lean();
 });
 
-app.get('/2', function (req, res) {
+app.get('/Exercises/2', function (req, res) {
     Workout.find({ Day: 2 }, function (err, workouts) {
         if (err) {
             console.log(err)
@@ -71,7 +71,7 @@ app.get('/2', function (req, res) {
     }).lean();
 });
 
-app.get('/3', function (req, res) {
+app.get('/Exercises/3', function (req, res) {
     Workout.find({ Day: 3 }, function (err, workouts) {
         if (err) {
             console.log(err)
@@ -83,7 +83,7 @@ app.get('/3', function (req, res) {
     }).lean();
 });
 
-app.get('/4', function (req, res) {
+app.get('/Exercises/4', function (req, res) {
     Workout.find({ Day: 4 }, function (err, workouts) {
         if (err) {
             console.log(err)
@@ -95,7 +95,7 @@ app.get('/4', function (req, res) {
     }).lean();
 });
 
-app.get('/5', function (req, res) {
+app.get('/Exercises/5', function (req, res) {
     Workout.find({ Day: 5 }, function (err, workouts) {
         if (err) {
             console.log(err)
@@ -107,7 +107,7 @@ app.get('/5', function (req, res) {
     }).lean();
 });
 
-app.get('/6', function (req, res) {
+app.get('/Exercises/6', function (req, res) {
     Workout.find({ Day: 6 }, function (err, workouts) {
         if (err) {
             console.log(err)
@@ -119,7 +119,7 @@ app.get('/6', function (req, res) {
     }).lean();
 });
 
-app.get('/7', function (req, res) {
+app.get('/Exercises/7', function (req, res) {
     Workout.find({ Day: 7 }, function (err, workouts) {
         if (err) {
             console.log(err)
@@ -129,14 +129,6 @@ app.get('/7', function (req, res) {
             });
         }
     }).lean();
-});
-
-app.get('/Programmes', function (req, res) {
-    res.render('programmes');
-});
-
-app.get('/Contact', function (req, res) {
-    res.render('contact');
 });
 
 app.get('/Tips', function (req, res) {

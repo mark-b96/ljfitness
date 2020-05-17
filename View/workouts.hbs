@@ -9,9 +9,9 @@
     {{> spacer}}
     <div class="content">
         {{#each workouts}}
-        <div class="day-select">
+        {{!-- <div class="day-select">
             <p class="day-text">Day {{Day}}</p>
-        </div>
+        </div> --}}
         <h1>Day {{Day}}</h1>
         <table class="w1">
             <thead>
@@ -26,7 +26,7 @@
                 {{#if (isArray this)}}
                 <tr>
                     {{#each this}}
-                    <td onclick="location.href='/{{../../Day}}'">{{this}}</td>
+                    <td>{{this}}</td>
                     {{/each}}
                 </tr>
                 {{/if}}

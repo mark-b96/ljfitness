@@ -37,11 +37,11 @@
     .logo{
         max-width: 10%;
         max-height: 10%;
-        pointer-events: all;
+        pointer-events: none;
         transition: 250ms; 
         z-index: 10000;
         margin-left: 5px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
     h2{
         visibility: visible;
