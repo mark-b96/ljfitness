@@ -87,7 +87,17 @@ strong{
   width: 100%;
   display: block;
   }
-  .spacer{
-    width: 100%;
-    height: 93.63px;
-  }
+
+.day-select{
+  background-color: white;
+  width: 80px;
+  border-radius: 3em;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10vw;
+}
+p.day-text{
+  color: #f00ee4;
+  font-size: 20px;
+  z-index: 1000;
+}

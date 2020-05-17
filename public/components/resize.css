@@ -43,9 +43,6 @@
         margin-left: 5px;
         margin-right: 10px;
     }
-    header{
-        justify-content:flex-end;
-    }
     h2{
         visibility: visible;
         width: auto;

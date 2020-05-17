@@ -22,3 +22,51 @@ a.contact{
 p.copyright{
     color: black;
 }
+.footer-tabs{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon.icon-text{
+    font-size: 10px;
+    z-index: 100000;
+    width: auto;
+    margin: 0;
+}
+a.icon{
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+}
+.icon-img{
+    z-index: 10000000;
+    margin: 0;
+    border: none;
+    stroke: transparent;
+    stroke-width: 0px;
+    background-color: white;
+}
+a.icon{
+    font-size: 10px;
+    letter-spacing: 0;
+    width: auto;
+    margin: 0;
+} 
+.icon-text{
+    color: black;
+    margin-top: 5px;
+} 
+
+@media only screen and (min-width: 1400px){
+    .footer-tabs{
+        visibility: hidden;
+    }
+}

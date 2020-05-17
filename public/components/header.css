@@ -1,13 +1,10 @@
 header{
-    width: 100%;
     display: flex;
     align-items: center;
+    width: 100%;
     position: fixed;
     background-color: black;
     z-index: 100000;
-}
-header::selection{
-    background: transparent;
 }
 
 .arrowtop{
@@ -28,3 +25,30 @@ header::selection{
     z-index: 10000;
     visibility: hidden;
 }
+
+@media only screen and (min-width: 0px){
+.spacer{
+    height: 100px;
+    width: 100%;
+}
+}
+@media only screen and (min-width: 600px){
+    .spacer{
+        height: 150px;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .spacer{
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .spacer{
+        height: 250px;
+        width: 100%;
+    }
+}
+

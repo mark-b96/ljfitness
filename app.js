@@ -31,27 +31,20 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
-app.get('/Programmes', function (req, res) {
-    const query = req.query;
-    console.log(query);
-
-    Workout.find(function (err, workouts) {
-        if (err) {
-            console.log(err)
-        } else {
-            res.render('programmes', {
-                workouts: workouts
-            });
-        }
-    }).lean().sort({ Day: 1 });
-});
-
 app.get('/Controller/menu.js', function (req, res) {
     res.sendFile(__dirname + '/Controller/menu.js');
 });
 
 app.get('/Exercises', function (req, res) {
-    res.render('workouts');
+    Workout.find(function (err, workouts) {
+        if (err) {
+            console.log(err)
+        } else {
+            res.render('workouts', {
+                workouts: workouts
+            });
+        }
+    }).lean().sort({ Day: 1 });
 });
 
 app.get('/1', function (req, res) {

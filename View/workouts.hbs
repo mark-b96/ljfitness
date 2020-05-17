@@ -6,16 +6,37 @@
 <body>
     {{{body}}}
     {{> header}}
-    <div class="days">
-        <li onclick="location.href='/1'">Day 1</li>
-        <li onclick="location.href='/2'">Day 2</li>
-        <li onclick="location.href='/3'">Day 3</li>
-        <li onclick="location.href='/4'">Day 4</li>
-        <li onclick="location.href='/5'">Day 5</li>
-        <li onclick="location.href='/6'">Day 6</li>
-        <li onclick="location.href='/7'">Day 7</li>
+    {{> spacer}}
+    <div class="content">
+        {{#each workouts}}
+        <div class="day-select">
+            <p class="day-text">Day {{Day}}</p>
+        </div>
+        <h1>Day {{Day}}</h1>
+        <table class="w1">
+            <thead>
+                <tr>
+                    <th>EXERCISES</th>
+                    <th>SETS</th>
+                    <th>REPS</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each this}}
+                {{#if (isArray this)}}
+                <tr>
+                    {{#each this}}
+                    <td onclick="location.href='/{{../../Day}}'">{{this}}</td>
+                    {{/each}}
+                </tr>
+                {{/if}}
+                {{/each}}
+            </tbody>
+        </table>
+        <br><br>
+        {{/each}}
     </div>
-
+    {{> footer}}
     <script type="text/javascript" src="/Controller/menu.js"></script>
 </body>
 
